@@ -4,5 +4,6 @@
 
 void main(void) 
 {
+	float matrix[][];
 	
 }

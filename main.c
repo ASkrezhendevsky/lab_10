@@ -45,9 +45,9 @@ int main(void)
 //	matrix[0][0] = 1; 	matrix[0][1] = 1; 	matrix[0][2] = 2;
 //	matrix[1][0] = 2; 	matrix[1][1] = 4; 	matrix[1][2] = 6;
 
-	matrix[0][0] = 0.66; 	matrix[0][1] = -1.44; 	matrix[0][2] = -0.18; 	matrix[0][3] = 1.83; //0.66*x - 1.44*y - 0.18*z = 1.11
-	matrix[1][0] = 0.48; 	matrix[1][1] = -0.24; 	matrix[1][2] = 0.37; 	matrix[1][3] = -0.84; //0.48*x - 0.24*y +0.37*z = -0.84
-	matrix[2][0] = 0.86; 	matrix[2][1] = 0.43;	matrix[2][2] = 0.64;	matrix[2][3] = 0.64; //0.86*x + 0.43*y + 0.64*z = 0.64
+	matrix[0][0] = 0.14; 	matrix[0][1] = 0.24; 	matrix[0][2] = -0.84; 	matrix[0][3] = 1.11; //0.14*x + 0.24*y - 0.84*z = 1.11
+	matrix[1][0] = 1.07; 	matrix[1][1] = -0.83; 	matrix[1][2] = 0.56; 	matrix[1][3] = 0.48; //1.07*x - 0.83 + 0.56*z = -0.84
+	matrix[2][0] = 0.64; 	matrix[2][1] = 0.43;	matrix[2][2] = -0.38;	matrix[2][3] = -0.83; //0.64*x + 0.43*y - 0.38*z = 0.64
 	
 	
 	printMatrix (M,N,(float*) matrix);
@@ -88,6 +88,3 @@ int main(void)
 	
 	return 0;
 }
-
-
-

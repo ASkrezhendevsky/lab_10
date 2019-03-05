@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define M 3 //строки
-#define N 4 //столбцы
+#define M 3 //lines
+#define N 4 //
 
 void printMatrix(int m, int n,float* matrix) 
 {
